@@ -4,34 +4,3 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-body {
-  background: #d3d3d3;
-  height: 100vh;
-}
-ul {
-  font-family: 'Knewave', cursive;
-  font-size: 48px;
-  margin: 5%;
-  padding: 0;
-  list-style: none;
-  text-align: center;
-}
-ul li {
-  max-width: 320px;
-  position: relative;
-  display: inline-block;
-  background: #fff;
-  box-shadow: rgba(0,0,0,.2) 2px 2px 10px;
-  padding: 20px;
-  margin: 20px 20px 100px;
-}
-ul li::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: calc(50% - 10px);
-  width: 20px;
-  height: 100px;
-  background: brown;
-  box-shadow: rgba(0,0,0,.2) 2px 2px 10px;
-}
