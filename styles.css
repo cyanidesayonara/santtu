@@ -4,3 +4,13 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+  max-width: 360px;
+  margin: auto;
+  padding: 10px;
+}
+img {
+  width: 200px;
+  margin: 5px;
+  float: right;
+}
