@@ -16,7 +16,7 @@
     shrink-to-fit=no" />
   <meta name="description" content="Portfolio" />
   <meta name="application-name" content="portfolio" />
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
   <title>
     Portfolio
@@ -24,64 +24,90 @@
 </head>
 
 <body>
-<span>FI</span>
-<span>|</span>
-<a href="en.html">EN</a>
-<img src="photo.jpg" />
-<h1>Moi ツ</h1>
-<h3>Etsitkö koodaria?</h3>
-<p>
-  Olen Santtu Nykänen ja opiskelen ohjelmistokehitystä Haaga-Heliassa. Haluaisin löytää joustavaa työtä, joka voisi tukea opiskeluani ja kehittää osaamistani.
-</p>
-<p>
-  Osaan tällä hetkellä Pythonia, Javaa ja JavaScriptia. Eniten olen tehnyt web-ohjelmointia ja osaan käyttää frameworkeja, kuten Django, React ja Spring. Varsinkin Reactia haluaisin oppia lisää.
-</p>
-<p>
-  Tämä portfolio pitää sisällään tietoa omista projekteistani
-  sekä linkkejä nettiprofiileihin. Kiitos käynnistä! 
-  <a href="mailto:cyanidesayonara@gmail.com">Ole yhteydessä</a>!
-</p>
-<hr>
-<h3>Projekteja</h3>
-<ul>
-  <li>
-    <a href="https://dopepod.me">
-      <h4>
-        dopepod
-      </h4>
+<section>
+  <span>FI</span>
+  <span>|</span>
+  <a href="en.html">EN</a>
+  <img src="photo.jpg" />
+  <h1>Moi ツ</h1>
+  <h2>Etsitkö koodaria?</h2>
+  <p>
+    Olen Santtu Nykänen ja opiskelen ohjelmistokehitystä Haaga-Heliassa. Haluaisin löytää joustavaa työtä, joka voisi tukea opiskeluani ja kehittää osaamistani.
+  </p>
+  <p>
+    Osaan tällä hetkellä Pythonia, Javaa ja JavaScriptia. Eniten olen tehnyt web-ohjelmointia ja osaan käyttää frameworkeja, kuten Django, React and Vue. Varsinkin Reactia ja/tai Vuea haluaisin oppia lisää.
+  </p>
+  <p>
+    Tämä portfolio pitää sisällään tietoa omista projekteistani
+    sekä linkkejä nettiprofiileihin. Kiitos käynnistä! 
+    <a href="mailto:cyanidesayonara@gmail.com">Ole yhteydessä</a>!
+  </p>
+  <hr>
+  <h2>Projekteja</h2>
+  <ul>
+    <li>
+      <a href="https://dopepod.me">
+        <h3>
+          dopepod
+        </h3>
+      </a>
+      <p>
+        Web app, joka noutaa podcasteja iTunesin API:n avulla (ja kaapii lisätietoa iTunesin nettisivuilta). Käyttäjä voi etsiä ja soittaa satoja tuhansia ilmaisia podcasteja, sekä rekisteröityneenä myös tehdä tilauksia ja muodostaa soittolistan.
+      </p>
+      <p>
+        Avainsanat:
+        <em>
+          Python, Django, JavaScript, jQuery, Bootstrap, PostgreSQL, Scrapy, DigitalOcean, Haystack, Elasticsearch
+        </em>
+      </p>
+    </li>
+    <li>
+      <a href="https://stvl.herokuapp.com/">
+        <h3>
+          Säteilytekniikan varastolista
+        </h3>
+      </a>
+      <p>
+        HUS:n säteilytekniikalle Djangolla toteutettu varastolista, jolla voi hakea, lisätä, muokata, tai poistaa osia. Osalistan voi importata ja exportata excelinä. Haun avuksi on QR-koodinlukija, joka käyttää puhelimen kameraa.
+      </p>
+      <p>
+        Avainsanat:
+        <em>
+          Python, Django, JavaScript, jQuery, PostgreSQL, Instascan, Heroku
+        </em>
+      </p>
+    </li>
+    <li>
+      <a href="https://noteowl.me/">
+        <h3>
+          NoteOwl
+        </h3>
+      </a>
+      <p>
+        Appi, jolla voi kirjata muistiinpanoja sekä assosioida niitä kalenteripäivämäärien mukaan. Frontendinä käytössä on React ja backendinä Node. Tietokanta on pilvessä ja sivun servaa AWS.
+      </p>
+      <p>
+        Avainsanat:
+        <em>
+          JavaScript, Node, React, MongoDB, AWS
+        </em>
+      </p> 
+    </li>   
+  </ul>
+  <hr>
+  <p style="float:right">
+    <a href="https://www.linkedin.com/in/santtu-nykanen/">
+      LinkedIn
     </a>
-    <p>
-      Web app, joka noutaa podcasteja iTunesin API:n avulla (ja kaapii lisätietoa iTunesin nettisivuilta). Käyttäjä voi etsiä ja soittaa satoja tuhansia ilmaisia podcasteja, sekä rekisteröityneenä myös tehdä tilauksia ja muodostaa soittolistan.
-    </p>
-    <p>
-      Avainsanat: Python, Django, JavaScript, jQuery, Bootstrap, PostgreSQL, Scrapy, Haystack, Elasticsearch
-    </p>
-  </li>
-  <li>
-    <a href="https://stvl.herokuapp.com/">
-      <h4>
-        Säteilytekniikan varastolista
-      </h4>
+    <span>&nbsp;|&nbsp;</span>
+    <a href="https://github.com/cyanidesayonara">
+      GitHub
     </a>
-    <p>
-      HUS:n säteilytekniikalle Djangolla toteutettu varastolista, jolla voi hakea, lisätä, muokata, tai poistaa osia. Osalistan voi importata ja exportata excelinä. Haun avuksi on QR-koodinlukija, joka käyttää puhelimen kameraa.
-    </p>
-    <p>
-      Avainsanat: Python, Django, JavaScript, jQuery, PostgreSQL, Instascan
-    </p>
-  </li>  
-</ul>
-<hr>  
-<p>
-  Jos kiinnostuit,
-  <a href="mailto:cyanidesayonara@gmail.com">ota yhteyttä</a>.
-  <a style="float:right" href="https://www.linkedin.com/in/santtu-nykanen/">
-    LinkedIn
-  </a>
-  <span style="float:right">&nbsp;|&nbsp;</span>
-  <a style="float:right" href="https://github.com/cyanidesayonara">
-    GitHub
-  </a>
-</p>
+  </p>  
+  <p>
+    Jos kiinnostuit,
+    <a href="mailto:cyanidesayonara@gmail.com">ota yhteyttä</a>.
+  </p>
+</section>
 </body>
 </html>
