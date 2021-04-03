@@ -11,7 +11,12 @@ body {
 section {
   max-width: 600px;
   margin: auto;
+}
+header, article, footer {
   padding: 20px;
+}
+aside {
+  float: right;
 }
 img {
   border-radius: .2rem;
@@ -28,12 +33,7 @@ hr {
 }
 a {
   text-decoration: none;
-  font-weight: 600;
 }
 a:hover {
   text-decoration: underline;
-}
-ul {
-  padding-left: 20px;
-  list-style: none;
 }
