@@ -1,5 +1,5 @@
 # Developer portfolio
-A simple developer portfolio containing info about me, my past projects, employment, etc
+A simple developer portfolio containing info about me, my work experience, personal projects, education, etc
 
 # Stack 
 Made with custom HTML & CSS
