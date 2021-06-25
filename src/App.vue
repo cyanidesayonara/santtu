@@ -1,15 +1,21 @@
 <template>
-  <header id="nav">
-    <aside aria-label="Linkit">
-      <a href="https://www.linkedin.com/in/santtu-nykanen/">LinkedIn</a>
-      <span> | </span>
-      <a href="https://github.com/cyanidesayonara">GitHub</a>
-    </aside>
-    <router-link to="/">FI</router-link>
-    <span> | </span>
-    <router-link to="/en">EN</router-link>
-  </header>
-  <router-view />
+  <div id="app">
+    <div>
+      <header id="nav">
+        <aside aria-label="Linkit">
+          <a href="https://www.linkedin.com/in/santtu-nykanen/">LinkedIn</a>
+          <span> | </span>
+          <a href="https://github.com/cyanidesayonara">GitHub</a>
+        </aside>
+        <router-link to="/fi">FI</router-link>
+        <span> | </span>
+        <router-link to="/en">EN</router-link>
+        <span> | </span>
+        <router-link to="/blog">BLOG</router-link>
+      </header>
+      <router-view />
+    </div>
+  </div>
 </template>
 
 <style lang="scss">
